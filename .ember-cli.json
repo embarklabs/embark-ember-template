@@ -1,3 +1,4 @@
 {
-  "disableAnalytics": false
+  "disableAnalytics": false,
+  "output_path": "dist"
 }
