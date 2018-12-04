@@ -10,18 +10,18 @@
     {{content-for "head"}}
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/ember-quickstart.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/embark-ember-template.css">
 
     {{content-for "head-footer"}}
   </head>
   <body>
     <h3>Welcome to Embark!</h3>
     <p>See the <a href="http://embark.readthedocs.io/en/latest/index.html" target="_blank">Embark's documentation</a> to see what you can do with Embark!</p>
-    <h2>Text</h2>
     {{content-for "body"}}
+    <div id="app"></div>
 
     <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/ember-quickstart.js"></script>
+    <script src="{{rootURL}}assets/embark-ember-template.js"></script>
 
     {{content-for "body-footer"}}
   </body>
